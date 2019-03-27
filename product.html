@@ -8,51 +8,61 @@
   <meta name="author" content="Patryk Telus">
 
   <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet"> 
 </head>
 
 <body>
 
 <nav>
   <ul>
-    <li>Overview</li>
-    <li>Features</li>
-    <li>Company</li>
-    <li>Support</li>
-    <li>Buy now!</li>
+    <li><a href="#overview">Overview</a></li>
+    <li><a href="#features">Features</a></li>
+    <li><a href="#company">Company</a></li>
+    <li><a href="#support">Support</a></li>
+    <li><a href="#buy">Buy now!</a></li>
   </ul>
 </nav>
 
-<article id="overview" class="article-one">
-  <p><img src="#" alt="Product image" />Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eu sagittis ante, a tristique mauris. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis auctor eleifend suscipit. Sed est diam, malesuada et nisl et, bibendum rutrum augue. Sed mi quam, tristique in nisl eget, mollis consectetur ipsum.</p>
+<article class="article-one ovimg" id="overview">
+    <!-- Image by <a href="https://pixabay.com/users/stevepb-282134/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=2059937">Steve Buissinne</a> from <a href="https://pixabay.com/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=2059937">Pixabay</a>-->
+    <p class="ov">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eu sagittis ante, a tristique mauris. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis auctor eleifend suscipit. Sed est diam, malesuada et nisl et, bibendum rutrum augue. Sed mi quam, tristique in nisl eget, mollis consectetur ipsum.</p>
 </article>
 
-<article id="features" class="article-two">
-  <p><img src="#" alt="icon" />Lorem ipsum dolor sit amet
-    <ul>
-      <li>consectetur adipiscing elit</li>
-      <li>Nullam eu sagittis ante</li>
-      <li>a tristique mauris</li>
-      <li>Vestibulum ante ipsum primis</li>
-      <li>in faucibus orci luctus et ultrices</li>
-    </ul>
-  <img src="#" alt="icon" /></p>
+<article class="article-two">
+  <div id="features">
+    <p><img src="#" alt="icon" />Lorem ipsum dolor sit amet
+      <ul>
+        <li>consectetur adipiscing elit</li>
+        <li>Nullam eu sagittis ante</li>
+        <li>a tristique mauris</li>
+        <li>Vestibulum ante ipsum primis</li>
+        <li>in faucibus orci luctus et ultrices</li>
+      </ul>
+    <img src="#" alt="icon" /></p>
+  </div>
 </article>
 
-<article id="company" class="article-one">
-  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eu sagittis ante, a tristique mauris. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis auctor eleifend suscipit. Sed est diam, malesuada et nisl et, bibendum rutrum augue. Sed mi quam, tristique in nisl eget, mollis consectetur ipsum. 
-    <img src="#" alt="Company logo" /></p>
+<article class="article-one">
+  <div id="company">
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eu sagittis ante, a tristique mauris. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis auctor eleifend suscipit. Sed est diam, malesuada et nisl et, bibendum rutrum augue. Sed mi quam, tristique in nisl eget, mollis consectetur ipsum. 
+      <img src="#" alt="Company logo" /></p>
+  </div>
 </article>
 
-<article id="support" class="article-two">
-  <form>
-      <p>What is your problem?</p>
-      <textarea name="comments" cols="30" rows="4"></textarea><br />
-      <button>Send</button>
-  </form>
+<article class="article-two">
+  <div id="support">
+    <form>
+        <p>What is your problem?</p>
+        <textarea name="comments" cols="30" rows="4"></textarea><br />
+        <button>Send</button>
+    </form>
+  </div>
 </article>
 
 <article id="buy" class="article-one">
-  <button>Buy now!</button>
+  <div id="buy">
+    <button>Buy now!</button>
+  </div>
 </article>
 
 <footer><p>Copyright &copy; 2019 Product Page</p></footer>

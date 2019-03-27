@@ -1,18 +1,78 @@
 @import "reset";
 
-article {
-    width: 1000px;
-    padding: 10px;
-    margin-left: auto;
-    margin-right: auto;
+body {
+    font: {
+        family: 'Lato', sans-serif;
+        size: 30px; 
+        style: normal;
+        weight: normal;
+    }
 }
+
+nav {
+    ul {
+        background-color: #1f1f1f;
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        height: 50px;
+        text-align: center;
+        li {
+            display: inline;
+            font: {
+                size: 20px;
+                weight: normal;
+            }
+            text-transform: lowercase;
+            line-height: 20px;
+            a {
+                display: inline-block;
+                width: 150px;
+                color: #f8f8f8; 
+                text: {
+                    decoration: none;
+                    align: center;
+                }
+                padding: 15px 0px;                
+                &:hover {
+                    color: black;
+                    background-color: #f8f8f8;
+                }
+            }
+        }
+    }
+}
+
+.bgimg {
+    height: 800px;
+    background: {
+        repeat: no-repeat;
+        size: cover;
+        position: center;
+    }
+}
+
+.ovimg {
+    @extend .bgimg;
+    background-image: url(img/prd.jpg);
+}
+
+p .ov {
+}
+
+//tmp
+/*#overview {
+    background-color: yellow;
+}*/
+//end
+
 .article {
     &-one {
-        background-color: red;
+        background-color: #f8f8f8;
     }
 
     &-two {
-         background-color: green;
+         background-color: #f2f2f2;
     }
 }
 
