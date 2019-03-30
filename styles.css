@@ -33,6 +33,14 @@ nav ul {
         color: black;
         background-color: #f8f8f8; }
 
+article {
+  height: 800px; }
+
+.article-one {
+  background-color: #f8f8f8; }
+.article-two {
+  background-color: #f2f2f2; }
+
 .bgimg, .ovimg {
   height: 800px;
   background-repeat: no-repeat;
@@ -42,12 +50,46 @@ nav ul {
 .ovimg {
   background-image: url(img/prd.jpg); }
 
-/*#overview {
-    background-color: yellow;
-}*/
-.article-one {
-  background-color: #f8f8f8; }
-.article-two {
-  background-color: #f2f2f2; }
+#ov {
+  margin-left: 20%;
+  margin-right: auto;
+  padding-top: 200px;
+  width: 550px;
+  text-align: justify;
+  vertical-align: middle; }
+
+.title {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 50px;
+  font-size: 50px;
+  font-weight: bold; }
+
+#ft {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  height: 600px; }
+
+.fbox {
+  margin-bottom: 5px;
+  margin-right: 5px;
+  padding: 5px;
+  text-align: center;
+  display: inline-block;
+  background-color: yellow;
+  width: 30%;
+  height: 250px;
+  background-color: #f8f8f8;
+  border: 1px solid #eceaea; }
+
+.fimg {
+  width: 150px;
+  height: 150px; }
+
+.des {
+  font-size: 22px; }
 
 /*# sourceMappingURL=styles.css.map */
